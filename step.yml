@@ -70,30 +70,35 @@ inputs:
       summary: ""
       description: "The email for App Store Connect authentication"
       is_required: true
+      is_expand: true
   - app_store_connect_password: "$APP_STORE_CONNECT_PASSWORD"
     opts:
       title: "App Store Connect password"
       summary: ""
       description: "The password for App Store Connect authentication"
       is_required: true
+      is_expand: true
   - sandbox_account_email_prefix: "$SANDBOX_ACCOUNT_EMAIL_PREFIX"
     opts:
       title: "Sandbox account email prefix"
       summary: ""
       description: "The prefix to use in the email of the sandbox account"
       is_required: true
+      is_expand: true
   - sandbox_account_password: "$SANDBOX_ACCOUNT_PASSWORD"
     opts:
       title: "Sandbox account password"
       summary: ""
       description: "The password of the sandbox account"
       is_required: true
+      is_expand: true
   - number_of_sandbox_accounts: "$NUMBER_OF_SANDBOX_ACCOUNTS"
     opts:
       title: "Number of sandbox accounts"
       summary: ""
       description: "The number of sandbox accounts to create"
       is_required: true
+      is_expand: true
 
 outputs:
   - APP_STORE_CONNECT_SANDBOX_ACCOUNTS:
